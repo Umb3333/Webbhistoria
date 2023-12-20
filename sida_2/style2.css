@@ -6,14 +6,30 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
+  #background_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .content {
+    position: sticky;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
   .container {
-    max-width: 1200px;
+    max-width: 1300px;
   }
 
   .content-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   tr, td {
