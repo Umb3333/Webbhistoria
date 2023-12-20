@@ -15,12 +15,12 @@ body {
   }
 
   .content {
-    position: sticky;
+    position: relative;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); position: relative;
     color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
+    width: 120%;
+    padding: 1px;
   }
   .container {
     max-width: 1300px;
