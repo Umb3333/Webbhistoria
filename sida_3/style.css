@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, rgb(11, 20, 12) 10%, rgb(39, 86, 21) 55%, rgb(22, 126, 24) 80%, rgb(6, 255, 18) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+.container {
+    max-width: 1200px;
+  }
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  tr, td {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    text-align: left;
+  }
