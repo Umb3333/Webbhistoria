@@ -36,3 +36,9 @@ body {
     padding: 15px;
     text-align: left;
   }
+
+  #dimbackground 
+  {
+    position: absolute;
+    z-index: 1;
+  }
